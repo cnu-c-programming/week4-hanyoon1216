@@ -13,7 +13,7 @@ void task1() {
 }
 
 void task3() {
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < 3; i++) {
         logger_static_inline("task3");
         logger_global("task3");
     }
