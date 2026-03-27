@@ -3,8 +3,8 @@
 #include "util.h"
 
 void logger_global(char* message) {
-    static int count = 0;
-    printf("log %2d: %s\n", ++count, message);
+    static int counter = 0;
+    printf("log %2d: %s\n", ++counter, message);
 }
 
 void task2() {
