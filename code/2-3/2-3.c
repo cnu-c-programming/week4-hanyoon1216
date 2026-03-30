@@ -3,7 +3,7 @@
 
 int main() {
     char a[64] = "Hello";
-    char b[64] = "World";
+    char b[64] = "world";
     char c[128];
 
     int len = strlen(a);
@@ -19,8 +19,8 @@ int main() {
     strcat(c, b);
     printf("c: %s\n", c);
 
-    printf("strcmp(%s, %s) = %d\n", a, a, strcmp(a, a));
-    printf("strcmp(%s, %s) = %d\n", a, b, strcmp(a, b));
+    printf("strcmp(%s, %s)= %d\n", a, a, strcmp(a, a));
+    printf("strcmp(%s, %s)= %d\n", a, b, strcmp(a, b));
 
     return 0;
 }
