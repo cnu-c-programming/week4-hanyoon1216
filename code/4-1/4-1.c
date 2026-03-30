@@ -26,8 +26,8 @@ int main() {
 
     for (int i = 0; i < (sizeof(d) / sizeof(int)); i++) {
         printf("%d ", d[i]);
-    printf("\n");
     }
+    printf("\n");
 
     return 0;
 }
